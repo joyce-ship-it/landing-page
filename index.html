@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+  </head>
+  <body>
+    <div class="landing-page min-w-screen min-h-screen flex font-nunito">
+      <div class="w-[60%] grid grid-rows-[auto_1fr_auto]">
+        <header class="flex justify-between items-center mr-[4rem] ml-12">
+          <div class="logo flex items-center space-x-2.5">
+            <img
+              src="./src/assets/Logo.svg"
+              alt="logo"
+              class="w-[80px] h-[80px]"
+            />
+            <span
+              class="text-[28px] font-semibold leading-[100%] relative top-2"
+              >Hello World!</span
+            >
+          </div>
+
+          <a href="#" class="text-[1.2rem] font-normal text-headerLink"
+            >Course</a
+          >
+          <a href="#" class="text-[1.2rem] font-normal text-headerLink">Info</a>
+          <a href="#" class="text-[1.2rem] font-normal text-headerLink"
+            >Testimonial</a
+          >
+          <a href="#" class="text-[1.2rem] font-normal text-headerLink"
+            >Categories</a
+          >
+        </header>
+        <main>
+          <div class="flex items-center">
+            <h1
+              class="uppercase font-bold text-[3rem] ml-12 w-[15ch] pt-[2rem] pb-[2rem] leading-[100%] mt-[2rem]"
+            >
+              learn graphics design for life
+            </h1>
+            <span class="relative top-[2.4rem]">
+              <img
+                src="./src/assets/logo2-1.svg"
+                alt="icon"
+                class="w-[2.5rem] h-[2.5rem]"
+              />
+              <img
+                src="./src/assets/logo2-2.svg"
+                alt="icon"
+                class="w-[1.5rem] h-[1.5rem] absolute z-10 top-[.5rem] left-[.4rem]"
+              />
+            </span>
+          </div>
+          <div class="description font-normal text-description ml-12">
+            <p class="w-[55ch]">
+              Stay Informed, Stay Ahead: Unveiling the Future of Technology,
+              Gadgets, and Innovation
+            </p>
+            <p class="w-[55ch]">
+              Your Gateway to the Digital Universe - Where Innovation Meets
+              Insight
+            </p>
+          </div>
+          <div class="stats mt-8 ml-12 flex items-center">
+            <div class="numbers flex flex-col">
+              <span class="text-[1.4rem]">5.1K</span>
+              <span class="text-stone-500 w-[12ch]"
+                >Students all over the world</span
+              >
+            </div>
+            <div class="pics flex relative">
+              <img
+                class="w-[4rem] h-[4rem]"
+                src="./src/assets/pic1.svg"
+                alt="an image of a woman"
+              />
+              <img
+                class="w-[4rem] h-[4rem] absolute left-[2rem]"
+                src="./src/assets/pic2.svg"
+                alt="an image of a woman"
+              />
+              <img
+                class="w-[4rem] h-[4rem] absolute left-[4rem]"
+                src="./src/assets/pic3.svg"
+                alt="an image of a woman"
+              />
+            </div>
+          </div>
+          <div class="buttons ml-12 flex items-center mt-5.5 gap-4">
+            <button
+              class="px-[3rem] py-[.8rem] bg-book text-bookText rounded-[5rem] cursor-pointer"
+            >
+              Book Your Seat
+            </button>
+            <div class="cursor-pointer">
+              <img
+                class="w-[8rem]"
+                src="./src/assets/playLogo.png"
+                alt="play icon"
+              />
+            </div>
+          </div>
+        </main>
+        <footer
+          class="bg-footerColor text-bookText flex justify-around px-2 py-3"
+        >
+          <div class="stat1 border-l-2 px-3 border-rectangle">
+            <span class="text-center text-[2rem]">6409</span>
+            <p>Success story</p>
+          </div>
+          <div class="stat2 border-l-2 px-3 border-rectangle">
+            <span class="text-center text-[2rem]">124</span>
+            <p>Expert Instructor</p>
+          </div>
+          <div class="stat3 border-l-2 px-3 border-rectangle">
+            <span class="text-center text-[2rem]">54.579</span>
+            <p>Hours Tutored</p>
+          </div>
+        </footer>
+      </div>
+      <div
+        class="profiles w-[40%] bg-[url(/profilesBg.svg)] flex flex-wrap justify-center gap-x-4 py-5"
+      >
+        <img
+          class="w-[14rem] h-[14rem]"
+          src="./src/assets/person1.png"
+          alt="a person"
+        />
+        <img
+          class="w-[14rem] h-[14rem]"
+          src="./src/assets/person2.png"
+          alt="a person"
+        />
+        <img
+          class="w-[14rem] h-[14rem]"
+          src="./src/assets/person3.png"
+          alt="a person"
+        />
+        <img
+          class="w-[14rem] h-[14rem]"
+          src="./src/assets/person4.png"
+          alt="a person"
+        />
+        <img
+          class="w-[14rem] h-[14rem]"
+          src="./src/assets/person5.png"
+          alt="a person"
+        />
+        <img
+          class="w-[14rem] h-[14rem]"
+          src="./src/assets/person6.png"
+          alt="a person"
+        />
+      </div>
+    </div>
+  </body>
+</html>
